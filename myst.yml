@@ -1,14 +1,17 @@
-name: ligo
+version: 1
+project:
+  title: "HW3 – LIGO Event Tutorial"
+  authors:
+    - JP Chiu
+  github: ucb-stat-159-f25/hw3-jpchiu26
 
-channels:
-  - conda-forge
-  - defaults
-
-dependencies:
-  - python=3.9
-  - numpy=2.0
-  - scipy=1.13
-  - h5py=3.12
-  - matplotlib=3.9
-  - scipy=1.13
-  - ipykernel=6.29
+site:
+  template: article-theme
+  base: /hw3-jpchiu26/
+  nav:
+    - text: Home
+      link: index.md
+    - text: Notebook
+      link: LOSC_Event_tutorial.ipynb
+    - text: README
+      link: README.md
